@@ -449,6 +449,7 @@ export default function QRCodeGenerator() {
                   <p className="text-gray-600">Developed by <a href='https://saniulislam.com'>Saniul Islam</a>. Built with <a href='https://appeland.com'>Appeland</a></p>
                 </div>
               </div>
+            </div>
           </CardContent>
         </Card>
       </div>
