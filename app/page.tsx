@@ -439,8 +439,19 @@ export default function QRCodeGenerator() {
             </div>
           </CardContent>
         </Card>
+        {/* Footer Section */}
+        <Card className="mt-6">
+          <CardContent>
+            <div className="text-sm">
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                <div>
+                  <p className="text-gray-600">Developer by Saniul Islam. Built with Appeland</p>
+                </div>
+              </div>
+          </CardContent>
+        </Card>
       </div>
-      <footer>Developer by Saniul Islam. Built with Appeland</footer>
     </div>
   )
 }
