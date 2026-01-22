@@ -440,6 +440,7 @@ export default function QRCodeGenerator() {
           </CardContent>
         </Card>
       </div>
+      <footer>Developer by Saniul Islam. Built with Appeland</footer>
     </div>
   )
 }
