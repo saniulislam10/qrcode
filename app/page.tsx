@@ -443,10 +443,9 @@ export default function QRCodeGenerator() {
         <Card className="mt-6">
           <CardContent>
             <div className="text-sm">
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+              <div className="p-5">
                 <div>
-                  <p className="text-gray-600">Developed by <a href='https://saniulislam.com'>Saniul Islam</a>. Built with <a href='https://appeland.com'>Appeland</a></p>
+                  <p className="text-gray-600">Developed by <a href='https://saniulislam.com' className="text-blue-600">Saniul Islam</a>. Built with <a href='https://appeland.com' className="text-blue-600">Appeland</a></p>
                 </div>
               </div>
             </div>
