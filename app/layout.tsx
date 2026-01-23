@@ -28,6 +28,7 @@ export default function RootLayout({
             gtag('config', 'G-SKRKFH63XR');
           `}
         </Script>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body>{children}</body>
     </html>
