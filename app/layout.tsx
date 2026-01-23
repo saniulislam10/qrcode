@@ -2,9 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Script from "next/script";
 export const metadata: Metadata = {
-  title: 'QR Builder',
+  title: 'QR Code Builder',
   description: 'Built by Appeland',
-  generator: 'v0.dev',
 }
 
 export default function RootLayout({
