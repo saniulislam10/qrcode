@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-1DQH49VWLB"
+          src="https://www.googletagmanager.com/gtag/js?id=G-SKRKFH63XR"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
