@@ -28,12 +28,30 @@ export default function RootLayout({
             gtag('config', 'G-SKRKFH63XR');
           `}
         </Script>
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "QR Code Builder",
+            "url": "https://qr-codebuilder.com/",
+            "description": "Free online QR code generator to create QR codes for any Websites, links, URLs, text, phone numbers, or emails instantly.",
+            "applicationCategory": "Utility",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          }
+        </script>
+
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="canonical" href="https://qr-codebuilder.com" />
         <meta name="robots" content="index, follow">
         <meta name="description"
 content="Create Free QR codes for Websites, text, phone numbers, emails instantly. 100% free QR Code Generator with no signup required." />
-      </head>
+        
+        </head>
       <body>{children}</body>
     </html>
   );
