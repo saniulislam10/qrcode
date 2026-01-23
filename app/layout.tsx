@@ -29,6 +29,7 @@ export default function RootLayout({
           `}
         </Script>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta name="robots" content="index, follow">
       </head>
       <body>{children}</body>
     </html>
