@@ -29,7 +29,7 @@ export default function RootLayout({
           `}
         </Script>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="canonical" href="https://qr-codebuilder.com/" />
+        <link rel="canonical" href="https://qr-codebuilder.com" />
         <meta name="robots" content="index, follow">
       </head>
       <body>{children}</body>
