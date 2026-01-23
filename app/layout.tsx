@@ -71,6 +71,7 @@ export default function RootLayout({
           content="Create Free QR codes for Websites, text, phone numbers, emails instantly. 100% free QR Code Generator with no signup required."
         />
         <meta name="robots" content="index, follow" />
+        <meta name="google-adsense-account" content="ca-pub-5067440394652005">
       </head>
       <body>{children}</body>
     </html>
