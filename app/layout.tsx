@@ -1,21 +1,33 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Script from "next/script";
+import Script from 'next/script'
+
 export const metadata: Metadata = {
   title: 'QR Code Builder',
   description: 'Built by Appeland',
+  robots: 'index, follow',
+  alternates: {
+    canonical: 'https://qr-codebuilder.com',
+  },
 }
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="en">
       <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5067440394652005"
-     crossorigin="anonymous"></script>
+        {/* Google Adsense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5067440394652005"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+
+        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-SKRKFH63XR"
           strategy="afterInteractive"
@@ -28,7 +40,10 @@ export default function RootLayout({
             gtag('config', 'G-SKRKFH63XR');
           `}
         </Script>
-        <script type="application/ld+json">
+
+        {/* JSON-LD Schema */}
+        <Script id="schema-json" type="application/ld+json" strategy="afterInteractive">
+          {`
           {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
@@ -43,17 +58,15 @@ export default function RootLayout({
               "priceCurrency": "USD"
             }
           }
-        </script>
+          `}
+        </Script>
 
+        {/* Favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="canonical" href="https://qr-codebuilder.com" />
-        <meta name="robots" content="index, follow">
-        <meta name="description"
-content="Create Free QR codes for Websites, text, phone numbers, emails instantly. 100% free QR Code Generator with no signup required." />
-        
-        </head>
-      <body>{children}</body>
-    </html>
-  );
-}
 
+        {/* Meta description */}
+        <meta
+          name="description"
+          content="Create Free QR codes for Websites, text, phone numbers, emails instantly. 100% free QR Code Generator with no signup required."
+        />
