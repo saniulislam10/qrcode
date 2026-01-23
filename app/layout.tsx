@@ -31,6 +31,8 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="canonical" href="https://qr-codebuilder.com" />
         <meta name="robots" content="index, follow">
+        <meta name="description"
+content="Create Free QR codes for Websites, text, phone numbers, emails instantly. 100% free QR Code Generator with no signup required." />
       </head>
       <body>{children}</body>
     </html>
