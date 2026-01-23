@@ -70,3 +70,9 @@ export default function RootLayout({
           name="description"
           content="Create Free QR codes for Websites, text, phone numbers, emails instantly. 100% free QR Code Generator with no signup required."
         />
+        <meta name="robots" content="index, follow" />
+      </head>
+      <body>{children}</body>
+    </html>
+  )
+}
