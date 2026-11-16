@@ -1,15 +1,48 @@
+
 import type { Metadata } from 'next'
 import './globals.css'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'QR Code Builder',
-  description: 'Built by Appeland',
+  metadataBase: new URL('https://www.qr-codebuilder.com'),
+
+  title: 'QR Code Builder – Free Online QR Code Generator',
+
+  description:
+    'Create customized QR codes instantly. Generate QR codes for URLs, text, Wi-Fi and contact information. Customize and download your QR codes easily.',
+
   robots: 'index, follow',
+
   alternates: {
-    canonical: 'https://qr-codebuilder.com',
+    canonical: 'https://www.qr-codebuilder.com',
+  },
+
+  openGraph: {
+    type: 'website',
+    url: 'https://www.qr-codebuilder.com',
+    siteName: 'QR Code Builder',
+    title: 'QR Code Builder – Free Online QR Code Generator',
+    description:
+      'Create and customize QR codes instantly. Generate QR codes for URLs, text, Wi-Fi and contact information.',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'QR Code Builder - Free Online QR Code Generator',
+      },
+    ],
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'QR Code Builder – Free Online QR Code Generator',
+    description:
+      'Create and customize QR codes instantly.',
+    images: ['/og-image.png'],
   },
 }
+
 
 export default function RootLayout({
   children,
