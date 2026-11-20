@@ -1,30 +1,80 @@
-# Generate qr code
+# QR Code Builder
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A customizable QR code generator that creates downloadable QR codes from text and URLs in real time.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/saniulislam10s-projects/v0-generate-qr-code)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/ZLHzUCDoTPD)
+## 🚀 Live Demo
 
-## Overview
+[**qr-codebuilder.com**](https://www.qr-codebuilder.com/)
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 📸 Screenshot
 
-## Deployment
+<img width="1920" height="1355" alt="image" src="https://github.com/user-attachments/assets/b32846b7-ffdd-47f7-a024-c9d96356461a" />
 
-Your project is live at:
 
-**[https://vercel.com/saniulislam10s-projects/v0-generate-qr-code](https://vercel.com/saniulislam10s-projects/v0-generate-qr-code)**
+![QR Code Builder](./screenshots/qr-codebuilder.png)
 
-## Build your app
+## ✨ Features
 
-Continue building your app on:
+- Generate QR codes instantly from text and URLs.
+- Customize foreground and background colours.
+- Choose from predefined colour themes.
+- Adjust QR code size and margins.
+- Configure error correction levels.
+- Download QR codes as PNG images.
+- Quick examples for GitHub, email, phone numbers, and text messages.
 
-**[https://v0.dev/chat/projects/ZLHzUCDoTPD](https://v0.dev/chat/projects/ZLHzUCDoTPD)**
+## 🛠️ Technology Stack
 
-## How It Works
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **QR Code Library:** qrcode
+- **Styling:** CSS
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/saniulislam10/qrcode.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd YOUR_REPOSITORY
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000).
+
+### Production Build
+
+```bash
+npm run build
+npm run start
+```
+
+## 👨‍💻 Developer
+
+**Saniul Islam**
+
+- Portfolio: [saniulislam.com](https://saniulislam.com)
+- Live Project: [qr-codebuilder.com](https://www.qr-codebuilder.com/)
