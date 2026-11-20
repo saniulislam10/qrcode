@@ -46,7 +46,7 @@ A customizable QR code generator that creates downloadable QR codes from text an
 2. Navigate to the project directory:
 
    ```bash
-   cd YOUR_REPOSITORY
+   cd qrcode
    ```
 
 3. Install dependencies:
