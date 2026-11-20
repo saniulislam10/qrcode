@@ -11,8 +11,6 @@ A customizable QR code generator that creates downloadable QR codes from text an
 <img width="1920" height="1355" alt="image" src="https://github.com/user-attachments/assets/b32846b7-ffdd-47f7-a024-c9d96356461a" />
 
 
-![QR Code Builder](./screenshots/qr-codebuilder.png)
-
 ## ✨ Features
 
 - Generate QR codes instantly from text and URLs.
